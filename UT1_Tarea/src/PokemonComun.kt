@@ -1,11 +1,11 @@
 class PokemonComun(
-    entrenador: Entrenador,
-    nivel: Int,
+    trainer: Trainer,
+    level: Int,
     id: String,
-    tipo: String,
-    val objetosEquipados: List<String>
-) : Pokemon(entrenador, nivel, id, tipo), Imprimible {
-    override fun devolverInfoString(): String {
-        return "Pokemon Comun: $id, Tipo: $tipo, Nivel: $nivel"
+    type: String,
+    val objectsEquipped: List<String>
+) : Pokemon(trainer, level, id, type), Printable {
+    override fun returnInfoString(): String {
+        return "Pokemon Comun: $id, Tipo: $type, Nivel: $level"
     }
 }

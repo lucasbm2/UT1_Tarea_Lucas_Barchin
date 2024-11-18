@@ -1,7 +1,7 @@
 class PokemonEspecial(
-    entrenador: Entrenador,
-    nivel: Int,
+    trainer: Trainer,
+    level: Int,
     id: String,
-    tipo: String,
-    val poderCombateAdicional: Int
+    type: String,
+    val specialPower: Int
 )

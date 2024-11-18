@@ -1,8 +1,8 @@
 class PokemonLegendario(
-    entrenador: Entrenador,
-    nivel: Int,
+    trainer: Trainer,
+    level: Int,
     id: String,
-    tipo: String,
-    val ataqueEspecial: String,
-    val habilidadOculta: String
+    type: String,
+    val specialAttack: String,
+    val hiddenAbility: String
 )

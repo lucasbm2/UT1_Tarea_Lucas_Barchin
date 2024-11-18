@@ -1,6 +1,6 @@
 open class Pokemon(
-    val entrenador: Entrenador,
-    var nivel: Int,
+    val trainer: Trainer,
+    var level: Int,
     val id: String,
-    val tipo: String
+    val type: String
 )

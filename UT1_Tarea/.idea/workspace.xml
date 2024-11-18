@@ -4,21 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e165bcf4-0553-49c1-b580-e83f8e641d16" name="Changes" comment="Creo proyecto">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UT1_Tarea.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entrenador.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Imprimible.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pokemon.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PokemonComun.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PokemonEspecial.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PokemonLegendario.kt" afterDir="false" />
+    <list default="true" id="e165bcf4-0553-49c1-b580-e83f8e641d16" name="Changes" comment="Creo clases, defino los atributos de cada una e implemento la interfaz Imprimible en PokemonComun">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entrenador.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trainer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Imprimible.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Printable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pokemon.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pokemon.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PokemonComun.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/PokemonComun.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PokemonEspecial.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/PokemonEspecial.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PokemonLegendario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/PokemonLegendario.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731951849067</updated>
-      <workItem from="1731951850050" duration="862000" />
+      <workItem from="1731951850050" duration="1816000" />
     </task>
     <task id="LOCAL-00001" summary="Creo proyecto">
       <option name="closed" value="true" />
@@ -106,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731951978550</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Creo clases, defino los atributos de cada una e implemento la interfaz Imprimible en PokemonComun">
+      <option name="closed" value="true" />
+      <created>1731952900973</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731952900973</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creo proyecto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creo proyecto" />
+    <MESSAGE value="Creo clases, defino los atributos de cada una e implemento la interfaz Imprimible en PokemonComun" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creo clases, defino los atributos de cada una e implemento la interfaz Imprimible en PokemonComun" />
   </component>
 </project>
