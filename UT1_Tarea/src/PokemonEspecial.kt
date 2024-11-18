@@ -3,7 +3,7 @@ class PokemonEspecial(
     level: Int,
     id: String,
     type: String,
-    val specialPower: Int
+    val specialPower: String
 ) : Pokemon(trainer, level, id, type), Printable {
 
     override fun returnInfoString(): String {

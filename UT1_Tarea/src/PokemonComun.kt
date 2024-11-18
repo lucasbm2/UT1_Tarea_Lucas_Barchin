@@ -8,7 +8,8 @@ class PokemonComun(
 
     override fun returnInfoString(): String {
         val superInfo = super.returnInfoString()
-        val objectsList = objectsEquipped.joinToString { "," }
-        return "$superInfo, Equipped objects: ${objectsList}}"
+        //USE OF IT BECAUSE IT REFERS TO EACH OBJECT OF THE LIST
+        val objectsList = objectsEquipped.joinToString { it }
+        return "$superInfo, Equipped objects: $objectsList"
     }
 }

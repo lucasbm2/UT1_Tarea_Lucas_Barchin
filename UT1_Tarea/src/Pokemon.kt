@@ -6,6 +6,6 @@ open class Pokemon(
 ) : Printable {
 
     override fun returnInfoString(): String {
-        return "Trainer: ${trainer.name} ${trainer.lastName},Level: $level, ID: $id, Type: $type"
+        return "Trainer: ${trainer.name} ${trainer.lastName}, Level: $level, ID: $id, Type: $type"
     }
 }
