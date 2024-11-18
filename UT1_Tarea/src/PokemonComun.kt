@@ -5,7 +5,10 @@ class PokemonComun(
     type: String,
     val objectsEquipped: List<String>
 ) : Pokemon(trainer, level, id, type), Printable {
+
     override fun returnInfoString(): String {
-        return "Pokemon Comun: $id, Tipo: $type, Nivel: $level"
+        val superInfo = super.returnInfoString()
+        val objectsList = objectsEquipped.joinToString { "," }
+        return "$superInfo, Equipped objects: ${objectsList}}"
     }
 }
