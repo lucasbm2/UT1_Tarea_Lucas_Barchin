@@ -1,4 +1,4 @@
-open class Pokemon(
+abstract class Pokemon(
     val trainer: Trainer,
     var level: Int,
     val id: String,

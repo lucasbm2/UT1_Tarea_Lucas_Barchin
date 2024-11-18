@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e165bcf4-0553-49c1-b580-e83f8e641d16" name="Changes" comment="Hago contenido clases extienden de pokemon y en PokemonComun.kt uso una funcion para unir los elementos de la lista, aun no lo he probado">
-      <change afterPath="$PROJECT_DIR$/src/PokemonCenter.kt" afterDir="false" />
+    <list default="true" id="e165bcf4-0553-49c1-b580-e83f8e641d16" name="Changes" comment="Creo PokemonCenter, retoco algunas clases de pokemon, creo las dos primeras funciones de PokemonCenter y las pruebo con datos de prueba en main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pokemon.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pokemon.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PokemonComun.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/PokemonComun.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PokemonEspecial.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/PokemonEspecial.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PokemonCenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/PokemonCenter.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731951849067</updated>
-      <workItem from="1731951850050" duration="5998000" />
+      <workItem from="1731951850050" duration="8389000" />
     </task>
     <task id="LOCAL-00001" summary="Creo proyecto">
       <option name="closed" value="true" />
@@ -125,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731955014284</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Creo PokemonCenter, retoco algunas clases de pokemon, creo las dos primeras funciones de PokemonCenter y las pruebo con datos de prueba en main">
+      <option name="closed" value="true" />
+      <created>1731957965991</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731957965991</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +142,7 @@
     <MESSAGE value="Creo clases, defino los atributos de cada una e implemento la interfaz Imprimible en PokemonComun" />
     <MESSAGE value="Paso a inglés el proyecto, después de darme cuenta" />
     <MESSAGE value="Hago contenido clases extienden de pokemon y en PokemonComun.kt uso una funcion para unir los elementos de la lista, aun no lo he probado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hago contenido clases extienden de pokemon y en PokemonComun.kt uso una funcion para unir los elementos de la lista, aun no lo he probado" />
+    <MESSAGE value="Creo PokemonCenter, retoco algunas clases de pokemon, creo las dos primeras funciones de PokemonCenter y las pruebo con datos de prueba en main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creo PokemonCenter, retoco algunas clases de pokemon, creo las dos primeras funciones de PokemonCenter y las pruebo con datos de prueba en main" />
   </component>
 </project>
