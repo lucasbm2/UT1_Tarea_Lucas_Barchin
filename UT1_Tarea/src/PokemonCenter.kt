@@ -39,4 +39,49 @@ class PokemonCenter {
         return null
     }
 
+    fun increaseLevel(id: String, levelIncrease: Int): Boolean {
+        for (pokemon in pokemons) {
+            if (pokemon != null) {
+                if (pokemon.id == id) {
+                    pokemon.level += levelIncrease
+                    println("Level increased successfully")
+                    return true
+                }
+            }
+        }
+        println("The pokemon not exists")
+        return false
+    }
+            //CHECK THAT POKEMON ISN’T NULL AND CHECK THAT THE LEVEL DECREASE IS AT LEAST 1
+    fun decreaseLevel(id: String, levelDecrease: Int): Boolean {
+        for (pokemon in pokemons) {
+            if (pokemon != null) {
+                if (levelDecrease > 1) {
+                    pokemon.level -= levelDecrease
+                    println("Level decreased successfully")
+                    return true
+                } else {
+                    println("Error decreasing should be at less of 1 level")
+                    return false
+                }
+            }
+        }
+        println("Error decreasing level")
+        return false
+    }
+
+    fun checkLevel(id: String): Int {
+        for (pokemon in pokemons) {
+            if (pokemon != null) {
+                if (pokemon.id == id) {
+                    return pokemon.level
+                }
+            }
+        }
+        println("The pokemon not exists")
+        return -1
+
+    }
 }
+
+

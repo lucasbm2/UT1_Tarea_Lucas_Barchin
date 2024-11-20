@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e165bcf4-0553-49c1-b580-e83f8e641d16" name="Changes" comment="Creo PokemonCenter, retoco algunas clases de pokemon, creo las dos primeras funciones de PokemonCenter y las pruebo con datos de prueba en main">
+    <list default="true" id="e165bcf4-0553-49c1-b580-e83f8e641d16" name="Changes" comment="Corrijo errores implemento 3 metodo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pokemon.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pokemon.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PokemonCenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/PokemonCenter.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,21 +25,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "lucasbm2"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lucasbm2&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/lucasbm2/UT1_Tarea_Lucas_Barchin.git",
-    "accountId": "1f2e80cc-83e6-4aa8-b561-bebbce10e918"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/lucasbm2/UT1_Tarea_Lucas_Barchin.git&quot;,
+    &quot;accountId&quot;: &quot;1f2e80cc-83e6-4aa8-b561-bebbce10e918&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2p26VkRkQclsl3jZkqg3yAt998X" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -53,15 +51,17 @@
     "Kotlin.MainKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.codeium.enabled": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "H:/Mi unidad/Desarrollo de Interfaces/1_Kotlin/L2_Functions/Calculator",
+    "last_opened_file_path": "C:/Users/lucas/Desktop/ProyectosAndroid/Acceso a Datos/EjerciciosJAXBLuc",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -81,7 +81,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731951849067</updated>
-      <workItem from="1731951850050" duration="8389000" />
+      <workItem from="1731951850050" duration="8419000" />
+      <workItem from="1732113572681" duration="443000" />
+      <workItem from="1732114040191" duration="513000" />
     </task>
     <task id="LOCAL-00001" summary="Creo proyecto">
       <option name="closed" value="true" />
@@ -131,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731957965991</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Corrijo errores implemento 3 metodo">
+      <option name="closed" value="true" />
+      <created>1731960348348</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731960348348</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +153,7 @@
     <MESSAGE value="Paso a inglés el proyecto, después de darme cuenta" />
     <MESSAGE value="Hago contenido clases extienden de pokemon y en PokemonComun.kt uso una funcion para unir los elementos de la lista, aun no lo he probado" />
     <MESSAGE value="Creo PokemonCenter, retoco algunas clases de pokemon, creo las dos primeras funciones de PokemonCenter y las pruebo con datos de prueba en main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creo PokemonCenter, retoco algunas clases de pokemon, creo las dos primeras funciones de PokemonCenter y las pruebo con datos de prueba en main" />
+    <MESSAGE value="Corrijo errores implemento 3 metodo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrijo errores implemento 3 metodo" />
   </component>
 </project>
