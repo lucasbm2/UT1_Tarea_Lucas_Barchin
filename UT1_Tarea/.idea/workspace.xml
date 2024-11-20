@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e165bcf4-0553-49c1-b580-e83f8e641d16" name="Changes" comment="Termino clase de PokemonCenter">
-      <change afterPath="$PROJECT_DIR$/src/Menu.kt" afterDir="false" />
+    <list default="true" id="e165bcf4-0553-49c1-b580-e83f8e641d16" name="Changes" comment="Recupero pokemoncenter borrado sin querer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pokemon.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pokemon.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PokemonCenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/PokemonCenter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PokemonComun.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/PokemonComun.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trainer.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +86,7 @@
       <updated>1731951849067</updated>
       <workItem from="1731951850050" duration="8419000" />
       <workItem from="1732113572681" duration="443000" />
-      <workItem from="1732114040191" duration="9511000" />
+      <workItem from="1732114040191" duration="10950000" />
     </task>
     <task id="LOCAL-00001" summary="Creo proyecto">
       <option name="closed" value="true" />
@@ -153,7 +152,31 @@
       <option name="project" value="LOCAL" />
       <updated>1732114576714</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Termino clase de PokemonCenter y compruebo metodos con menu">
+      <option name="closed" value="true" />
+      <created>1732126532436</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732126532437</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Agrupo las clases en un archivo y elimino menu porque lo he implementado en pokemoncenter">
+      <option name="closed" value="true" />
+      <created>1732126704971</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1732126704971</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Recupero pokemoncenter borrado sin querer">
+      <option name="closed" value="true" />
+      <created>1732126748182</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1732126748182</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +190,9 @@
     <MESSAGE value="Creo PokemonCenter, retoco algunas clases de pokemon, creo las dos primeras funciones de PokemonCenter y las pruebo con datos de prueba en main" />
     <MESSAGE value="Corrijo errores implemento 3 metodo" />
     <MESSAGE value="Termino clase de PokemonCenter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Termino clase de PokemonCenter" />
+    <MESSAGE value="Termino clase de PokemonCenter y compruebo metodos con menu" />
+    <MESSAGE value="Agrupo las clases en un archivo y elimino menu porque lo he implementado en pokemoncenter" />
+    <MESSAGE value="Recupero pokemoncenter borrado sin querer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Recupero pokemoncenter borrado sin querer" />
   </component>
 </project>

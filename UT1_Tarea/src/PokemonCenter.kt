@@ -90,18 +90,16 @@ class Menu(val pokemonCenter: PokemonCenter) {
     fun displayMenu() {
         var option: Int
         do {
-            println(
-                """
-    1. Register a Pokémon
-    2. List of registered pokemon
-    3. Obtain detailed information about a Pokémon
-    4. Increase the level of a Pokémon
-    5. Decrease the level of a Pokémon
-    6. Check the current level of a Pokémon
-    7. Exit
-    Choose an option:
-    """
-            )
+            println("""
+1. Register a Pokémon
+2. List of registered pokemon
+3. Obtain detailed information about a Pokémon
+4. Increase the level of a Pokémon
+5. Decrease the level of a Pokémon
+6. Check the current level of a Pokémon
+7. Exit
+Choose an option:
+""")
             option = readLine()?.toIntOrNull() ?: 0
 
             when (option) {

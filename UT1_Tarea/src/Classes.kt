@@ -9,6 +9,7 @@ abstract class Pokemon(
         return "Trainer: Name: ${trainer.name} Lastname: ${trainer.lastName} Number ${trainer.numberTrainer}, Pokemon Level: $level,Pokemon ID: $idPokemon, Pokemon type: $type"
     }
 }
+
 class PokemonComun(
     trainer: Trainer,
     level: Int,
@@ -51,3 +52,9 @@ class PokemonLegendario(
         return "$superInfo, Special Attack: $specialAttack, Hidden Ability: $hiddenAbility"
     }
 }
+
+class Trainer(
+    val name: String,
+    val lastName: String,
+    val numberTrainer: Int
+)
