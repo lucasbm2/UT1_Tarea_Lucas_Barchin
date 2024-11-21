@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e165bcf4-0553-49c1-b580-e83f8e641d16" name="Changes" comment="Recupero pokemoncenter borrado sin querer">
+      <change afterPath="$PROJECT_DIR$/src/Menu.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Classes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PokemonCenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/PokemonCenter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trainer.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,14 +50,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Kotlin.MainKt.executor": "Run",
+    "Kotlin.MainKt.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.codeium.enabled": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/lucas/Desktop/ProyectosAndroid/Acceso a Datos/EjerciciosJAXBLuc",
+    "last_opened_file_path": "C:/Users/lucas/Desktop/ProyectosAndroid/Desarrollo de Interfaces/UT1_Tarea_Lucas_Barchin/UT1_Tarea",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -87,6 +86,8 @@
       <workItem from="1731951850050" duration="8419000" />
       <workItem from="1732113572681" duration="443000" />
       <workItem from="1732114040191" duration="10950000" />
+      <workItem from="1732211582472" duration="8000" />
+      <workItem from="1732216787010" duration="991000" />
     </task>
     <task id="LOCAL-00001" summary="Creo proyecto">
       <option name="closed" value="true" />
@@ -194,5 +195,19 @@
     <MESSAGE value="Agrupo las clases en un archivo y elimino menu porque lo he implementado en pokemoncenter" />
     <MESSAGE value="Recupero pokemoncenter borrado sin querer" />
     <option name="LAST_COMMIT_MESSAGE" value="Recupero pokemoncenter borrado sin querer" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/PokemonCenter.kt</url>
+          <line>22</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
