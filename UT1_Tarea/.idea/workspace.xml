@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e165bcf4-0553-49c1-b580-e83f8e641d16" name="Changes" comment="Recupero pokemoncenter borrado sin querer">
+    <list default="true" id="e165bcf4-0553-49c1-b580-e83f8e641d16" name="Changes" comment="Arreglo metodo list">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Classes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PokemonCenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/PokemonCenter.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +30,12 @@
     &quot;assignee&quot;: &quot;lucasbm2&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/lucasbm2/UT1_Tarea_Lucas_Barchin.git",
-    "accountId": "3a85d13b-9f1c-4998-8bc6-57ea4e79a93d"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/lucasbm2/UT1_Tarea_Lucas_Barchin.git&quot;,
+    &quot;accountId&quot;: &quot;3a85d13b-9f1c-4998-8bc6-57ea4e79a93d&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -46,26 +44,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Kotlin.MainKt.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.codeium.enabled": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/lucas/Desktop/ProyectosAndroid/Desarrollo de Interfaces/UT1_Tarea_Lucas_Barchin/UT1_Tarea",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lucas/Desktop/ProyectosAndroid/Desarrollo de Interfaces/UT1_Tarea_Lucas_Barchin/UT1_Tarea&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -87,7 +85,8 @@
       <workItem from="1732114040191" duration="10950000" />
       <workItem from="1732211582472" duration="8000" />
       <workItem from="1732216787010" duration="991000" />
-      <workItem from="1732701460206" duration="863000" />
+      <workItem from="1732701460206" duration="1017000" />
+      <workItem from="1732734332458" duration="462000" />
     </task>
     <task id="LOCAL-00001" summary="Creo proyecto">
       <option name="closed" value="true" />
@@ -177,11 +176,30 @@
       <option name="project" value="LOCAL" />
       <updated>1732126748182</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Arreglo metodo list">
+      <option name="closed" value="true" />
+      <created>1732702455822</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1732702455822</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creo proyecto" />
@@ -194,6 +212,7 @@
     <MESSAGE value="Termino clase de PokemonCenter y compruebo metodos con menu" />
     <MESSAGE value="Agrupo las clases en un archivo y elimino menu porque lo he implementado en pokemoncenter" />
     <MESSAGE value="Recupero pokemoncenter borrado sin querer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Recupero pokemoncenter borrado sin querer" />
+    <MESSAGE value="Arreglo metodo list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arreglo metodo list" />
   </component>
 </project>
