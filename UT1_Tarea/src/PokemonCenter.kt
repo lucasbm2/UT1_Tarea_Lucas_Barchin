@@ -1,6 +1,7 @@
 class PokemonCenter {
     private val pokemons = Array<Pokemon?>(100) { null }
 
+    //Register a pokemon
     fun registerPokemon(pokemon: Pokemon): Boolean {
         for (i in 0 until pokemons.size) {
             if (pokemons[i] == null) {
@@ -12,7 +13,7 @@ class PokemonCenter {
         return false
     }
 
-
+    //List of registered pokemon
     fun listPokemon(): List<String> {
         val listResul = ArrayList<String>()
         println("List of registered Pokémon:")
@@ -27,8 +28,7 @@ class PokemonCenter {
         return listResul
     }
 
-
-    //STRING? BECAUSE ID COULD BE NULL
+    // Obtain detailed information about a pokemon
     fun pokemonInfo(id: String): String? {
         for (pokemon in pokemons) {
             if (pokemon != null) {
@@ -41,6 +41,7 @@ class PokemonCenter {
         return null
     }
 
+    // Increase the level of a pokemon
     fun increaseLevel(id: String, levelIncrease: Int): Boolean {
         for (pokemon in pokemons) {
             if (pokemon != null) {
@@ -55,7 +56,7 @@ class PokemonCenter {
         return false
     }
 
-    //CHECK THAT POKEMON ISN’T NULL AND CHECK THAT THE LEVEL DECREASE IS AT LEAST 1
+    // Decrease the level of a pokemon
     fun decreaseLevel(id: String, levelDecrease: Int): Boolean {
         for (pokemon in pokemons) {
             if (pokemon != null) {
@@ -73,6 +74,7 @@ class PokemonCenter {
         return false
     }
 
+    // Check the current level of a pokemon
     fun checkLevel(id: String): Int {
         for (pokemon in pokemons) {
             if (pokemon != null && pokemon.idPokemon == id) {

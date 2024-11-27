@@ -1,5 +1,6 @@
 class Menu(val pokemonCenter: PokemonCenter) {
 
+    // Display the menu of methods of the pokemon center
     fun displayMenu() {
         var option: Int
         do {
@@ -96,6 +97,7 @@ Choose an option:
                 }
 
                 2 -> pokemonCenter.listPokemon()
+
                 3 -> {
                     println("Pokémon ID:")
                     val id = readLine() ?: ""
@@ -124,6 +126,7 @@ Choose an option:
                     pokemonCenter.checkLevel(id)
                 }
 
+                //Exit
                 7 -> println("Exit")
                 else -> println("Invalid option. Please try again.")
             }

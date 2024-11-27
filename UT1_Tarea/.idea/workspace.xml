@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e165bcf4-0553-49c1-b580-e83f8e641d16" name="Changes" comment="Arreglo metodo list">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menu.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PokemonCenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/PokemonCenter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Printable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Printable.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +33,12 @@
     &quot;assignee&quot;: &quot;lucasbm2&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/lucasbm2/UT1_Tarea_Lucas_Barchin.git&quot;,
-    &quot;accountId&quot;: &quot;3a85d13b-9f1c-4998-8bc6-57ea4e79a93d&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/lucasbm2/UT1_Tarea_Lucas_Barchin.git",
+    "accountId": "1f2e80cc-83e6-4aa8-b561-bebbce10e918"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -87,6 +90,7 @@
       <workItem from="1732216787010" duration="991000" />
       <workItem from="1732701460206" duration="1017000" />
       <workItem from="1732734332458" duration="462000" />
+      <workItem from="1732734917333" duration="272000" />
     </task>
     <task id="LOCAL-00001" summary="Creo proyecto">
       <option name="closed" value="true" />
