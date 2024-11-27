@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e165bcf4-0553-49c1-b580-e83f8e641d16" name="Changes" comment="Recupero pokemoncenter borrado sin querer">
-      <change afterPath="$PROJECT_DIR$/src/Menu.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Classes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PokemonCenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/PokemonCenter.kt" afterDir="false" />
@@ -33,12 +32,12 @@
     &quot;assignee&quot;: &quot;lucasbm2&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/lucasbm2/UT1_Tarea_Lucas_Barchin.git&quot;,
-    &quot;accountId&quot;: &quot;1f2e80cc-83e6-4aa8-b561-bebbce10e918&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/lucasbm2/UT1_Tarea_Lucas_Barchin.git",
+    "accountId": "3a85d13b-9f1c-4998-8bc6-57ea4e79a93d"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -50,7 +49,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Kotlin.MainKt.executor": "Debug",
+    "Kotlin.MainKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.codeium.enabled": "true",
@@ -88,6 +87,7 @@
       <workItem from="1732114040191" duration="10950000" />
       <workItem from="1732211582472" duration="8000" />
       <workItem from="1732216787010" duration="991000" />
+      <workItem from="1732701460206" duration="863000" />
     </task>
     <task id="LOCAL-00001" summary="Creo proyecto">
       <option name="closed" value="true" />
@@ -195,19 +195,5 @@
     <MESSAGE value="Agrupo las clases en un archivo y elimino menu porque lo he implementado en pokemoncenter" />
     <MESSAGE value="Recupero pokemoncenter borrado sin querer" />
     <option name="LAST_COMMIT_MESSAGE" value="Recupero pokemoncenter borrado sin querer" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/PokemonCenter.kt</url>
-          <line>22</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -16,16 +16,17 @@ class PokemonCenter {
     fun listPokemon(): List<String> {
         val listResul = ArrayList<String>()
         println("List of registered Pokémon:")
+
         for (pokemon in pokemons) {
-            //CHECK THAT POKEMON ISN´T NULL TO SHOW HIS INFO, NULL SPACES WON´T BE SHOWED
             if (pokemon != null) {
-                listResul.add(pokemon.returnInfoString())
+                val info = "${pokemon.idPokemon}, ${pokemon.trainer.name}, ${pokemon.level}"
+                println(info)
+                with(listResul) { add(info) }
             }
         }
-        listResul.forEach { println(it) }
-
         return listResul
     }
+
 
     //STRING? BECAUSE ID COULD BE NULL
     fun pokemonInfo(id: String): String? {
